@@ -1,3 +1,7 @@
+### This is a fork of SftpEx module that fix a [bug in the upload](https://github.com/mikejdorm/sftp_ex/pull/4)
+### I do not maintain it 
+### Please use the original module and push for the approval of the [PR](https://github.com/mikejdorm/sftp_ex/pull/4) containing the fix
+
 # SftpEx
 
 An Elixir wrapper around the Erlang SFTP application. This allows for the use of Elixir Streams to 
