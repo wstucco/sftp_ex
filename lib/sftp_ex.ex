@@ -240,7 +240,8 @@ defmodule SftpEx.Helpers do
   @moduledoc false
 
   def handle_error(e) do
-    Logger.error "#{inspect e}"
+    if Application.get_env(:sftp_ex, :log_errors, true) == true, do:
+      Logger.error "#{inspect e}"
     e
   end
 
